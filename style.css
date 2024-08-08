@@ -1,0 +1,94 @@
+html, body{
+    overflow-x: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(4, 39, 59);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background:rgba(0,0, 0, 0.369);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+header p{
+    font-size: 28px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 60px;
+}
+.container-menu li{
+    margin: 20px;
+    font-size: 18px;
+}
+.container-menu a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 7px;
+    border-radius: 5px;
+}
+.container-menu a:hover{
+    transform: scale(1.1);
+    background-color: rgb(26, 26, 224);
+}
+h1{
+    text-align: center;
+}
+#title-proj{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-jogos{
+    margin: 30px;
+    transition: 2s ease-out;
+}
+.container-jogos:hover{
+    transform: scale(1.1)
+}
+.container-jogos h2{
+    text-align: center;
+}
+.container-jogos img{
+    border-radius: 10px;
+}
+.botao-fujao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botao-fujao button{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.5s ease-out;
+}
+.botao-fujao button:hover{
+    transform: scale(1.1);
+}
